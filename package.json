@@ -1,0 +1,28 @@
+{
+  "name": "github-api-proxy",
+  "version": "1.0.0",
+  "description": "CORS Proxy for GitHub API",
+  "type": "module",
+  "main": "lib/index.js",
+  "repository": "git@github.com:thezzisu/github-api-proxy.git",
+  "author": "thezzisu <thezzisu@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "pino-pretty": "^9.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.1.0",
+    "dotenv": "^16.0.2",
+    "fastify": "^4.5.3",
+    "fastify-plugin": "^4.2.1",
+    "node-fetch": "^3.2.10",
+    "pino": "^8.4.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
