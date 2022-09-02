@@ -4,7 +4,7 @@
 import dotenv from 'dotenv'
 dotenv.config()
 
-const { app } = await import('..')
+const { app } = await import('../lib/index.js')
 
 export default async (req, res) => {
   await app.ready()
