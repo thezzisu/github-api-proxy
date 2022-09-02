@@ -118,3 +118,4 @@ packages/**/lib/
 *.sw?
 
 /lib/
+.vercel

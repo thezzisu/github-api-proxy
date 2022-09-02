@@ -3,8 +3,7 @@
 
 import dotenv from 'dotenv'
 dotenv.config()
-
-const { app } = await import('../src/app')
+import { app } from '../src/app'
 
 export default async (req, res) => {
   await app.ready()
